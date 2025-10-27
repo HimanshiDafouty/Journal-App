@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.*;
 
 @RestController
-@RequestMapping("/journal") // It will be added before , for all the endpoints
+@RequestMapping("/_journal") // It will be added before , for all the endpoints
 public class JournalEntryController {
 
     private Map<Long , JournalEntry> jornalEntries = new HashMap<>();
